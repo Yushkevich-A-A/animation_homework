@@ -25,29 +25,6 @@ module.exports = {
         ],
       },
       {
-        test: /\.svg$/,
-        type: 'asset/resource',
-      },
-      // {
-      //   test: /\.(png|jpg|gif)$/i,
-      //   use: [
-      //     {
-      //       loader: 'url-loader',
-      //     },
-      //   ],
-      // },
-      {
-        test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]', // чтоб не менялось название файла
-            },
-          },
-        ],
-      },
-      {
         test: /\.html$/,
         use: [
           {
