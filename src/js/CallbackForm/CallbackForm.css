@@ -1,0 +1,105 @@
+
+.widget-callback {
+  padding: 15px;
+  position: relative;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.widget-form {
+  background-color: white;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 1px rgb(194, 194, 194);
+  position: absolute;
+  z-index: 1;
+  transition: opacity .3s, transform .3s;
+}
+
+.form {
+  padding: 15px;
+}
+
+.block-textarea-form {
+  margin-bottom: 15px;
+}
+
+.textarea-form-label {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.textarea-form {
+  padding: 10px;
+  width: 100%;
+  height: 200px;
+  border: 1px solid #b6b6b6;
+  border-radius: 10px;
+  resize: none;
+}
+
+.textarea-form:focus-visible {
+  outline: none;
+  border: 1px solid #b6b6b6;
+}
+
+.button-submit-form {
+  border: 1px solid #b6b6b6;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.button-submit-form:hover {
+  background-color: #bebebe;
+}
+
+.button-cancel-form {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.button-cancel-form::before {
+  content: "X";
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button-open-form {
+  position: relative;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+.button-open-form-hover {
+  transition: transform .3s;
+  transform: scale(1.3);
+}
+
+.hidden-element {
+  transition: opacity .3s, transform .3s;
+  transform: scale(0.7);
+  opacity: 0;
+}
+

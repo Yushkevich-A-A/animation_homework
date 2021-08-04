@@ -1,0 +1,32 @@
+.widget-collapsable {
+  background-color: #fff;
+  margin: 10px;
+  padding: 25px;
+}
+
+.collapse-button {
+  padding: 10px;
+  background-color: #017bff;
+  color: white;
+  border:none;
+  border-radius: 5px;
+}
+
+.collapse-button:hover {
+  background-color: #006adb;
+}
+
+.collapse-button-clicked {
+  box-shadow: 0 0 3px 3px #8bc3ff;
+}
+
+.collapse-block-content {
+  margin-top: 25px;
+  overflow: hidden;
+  transition: height 0.3s;
+}
+
+.collapse-block-text {
+  padding: 20px;
+  border: 1px solid rgb(200, 199, 199);
+}
