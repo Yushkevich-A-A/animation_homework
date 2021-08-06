@@ -5,3 +5,6 @@ import './js/CallbackForm/CallbackForm.css';
 
 // js
 import './js/app';
+
+// jpg
+import './image/heart.png';

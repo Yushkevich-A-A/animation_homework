@@ -48,6 +48,7 @@
 }
 
 .button-submit-form {
+  cursor: pointer;
   border: 1px solid #b6b6b6;
   border-radius: 10px;
   padding: 10px;
@@ -59,6 +60,7 @@
 }
 
 .button-cancel-form {
+  cursor: pointer;
   position: absolute;
   right: 5px;
   top: 5px;
@@ -69,36 +71,27 @@
   font-weight: 700;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.widget-form-button {
+  transition: opacity .3s, transform .3s;
+}
 
 .button-open-form {
+  cursor: pointer;
   position: relative;
   border: none;
   border-radius: 50%;
   width: 50px;
   height: 50px;
   background-color: red;
+  transition: opacity .3s 0s,
+              transform .3s 0s;
 }
 
-.button-open-form-hover {
-  transition: transform .3s;
-  transform: scale(1.3);
+.button-open-form:hover {
+  transform: scale(1.1);
 }
 
 .hidden-element {
-  transition: opacity .3s, transform .3s;
   transform: scale(0.7);
   opacity: 0;
 }
